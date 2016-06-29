@@ -44,7 +44,8 @@ if (have_posts()) {
         if (!empty(td_global::$load_featured_img_from_template)) {
             echo $td_mod_single->get_image(td_global::$load_featured_img_from_template);
         } else {
-            echo $td_mod_single->get_image('td_696x0');
+            echo $td_mod_single->get_image('td_800x0');
+			// Number changed here to make featured image fit content width
         }
         ?>
 

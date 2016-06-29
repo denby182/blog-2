@@ -7,6 +7,7 @@
     <meta charset="<?php bloginfo( 'charset' );?>" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
+	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
     <?php
     wp_head(); /** we hook up in wp_booster @see td_wp_booster_functions::hook_wp_head */
     ?>
